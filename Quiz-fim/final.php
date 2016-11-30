@@ -1,10 +1,10 @@
 <?php
-
+	setcookie("Quest4",$_GET['p4']);
 	
-	$p1=$_GET['r1f'];
-	$p2=$_GET['r2f'];
-	$p3=$_GET['r3f'];
-	$p4=$_GET['p4'];
+	$p1=$_COOKIE['Quest1'];
+	$p2=$_COOKIE['Quest2'];
+	$p3=$_COOKIE['Quest3'];
+	$p4=$_COOKIE['Quest4'];
 	$p2 = strtoupper($p2);
 	$p3 = strtoupper($p3);
 	$acertos = 0;
